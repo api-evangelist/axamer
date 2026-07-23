@@ -1,7 +1,27 @@
 aid: axamer
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/axamer.png
 name: Axamer
-description: Axamer is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Axamer is the company behind Menteo (menteo.ai), an AI-agent platform for restaurants and
+  restaurant chains, focused on Latin America. Menteo deploys a team of specialized AI agents
+  for marketing (WhatsApp and email campaigns), 24/7 WhatsApp order taking, loyalty and rewards
+  programs, and customer service, integrating with existing POS systems, delivery platforms, and
+  messaging channels to unify customer data and automate marketing, sales, and retention. Plans
+  start from $149 USD/month with no long-term contract. Surfaced as a portfolio company of
+  500 Global and added to the API Evangelist network; as of this pass Menteo publishes a public
+  marketing site with Terms of Service and Privacy Policy but no public developer portal, API
+  reference, OpenAPI, or /.well-known discovery surface.
 url: https://raw.githubusercontent.com/api-evangelist/axamer/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,19 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Artificial Intelligence
+- AI Agents
+- Restaurants
+- Food Service
+- Customer Engagement
+- Loyalty
+- Messaging
+- WhatsApp
+- Latin America
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +51,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/axamer-domain-security.yml
 - type: Website
   url: https://menteo.ai
+- type: TermsOfService
+  url: https://menteo.ai/terms-of-service.html
+- type: PrivacyPolicy
+  url: https://menteo.ai/privacy-policy.html
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
