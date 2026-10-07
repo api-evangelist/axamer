@@ -74,6 +74,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Pricing
+  url: https://menteo.ai
+- type: Plans
+  url: plans/axamer-plans-pricing.yml
 - type: DomainSecurity
   url: security/axamer-domain-security.yml
 - type: Website
