@@ -1,0 +1,32 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://menteo.ai
+sources:
+- https://menteo.ai
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T112025
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: 'Landing page (Spanish) for Menteo AI agents for restaurants; only price shown is in the FAQ: plans
+  start from $149 USD/mes, with a free start option. No detailed plan table on this page.'
+plan_count: 2
+currency: USD
+plans:
+- name: Planes (desde)
+  price_text: $149 USD/mes
+  price: 149
+  currency: USD
+  period: month
+  included_quota: Sin contratos permanentes. Podes empezar gratis y escalar cuando quieras.
+- name: Empezar gratis
+  price_text: Empezar gratis
+  period: none
+  included_quota: Sin tarjeta de credito para empezar.
