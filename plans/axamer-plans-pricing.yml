@@ -30,3 +30,24 @@ plans:
   price_text: Empezar gratis
   period: none
   included_quota: Sin tarjeta de credito para empezar.
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - subscription
+  units: []
+  plans:
+  - name: Planes (desde)
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods:
+    - month
+  - name: Empezar gratis
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
